@@ -1,0 +1,134 @@
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    left: 0px;
+    position: fixed;
+    top: 0px;
+    width: 1024px;
+}
+
+.discounts {
+    background-color: #1CD1B0;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 38px;
+    left: 0px;
+    padding: 10px 0px 10px 27px;
+    position: absolute;
+    top: 0px;
+    width: 100%;
+}
+
+.title {
+    background-color: #00669F;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    height: 101px;
+    left: 0px;
+    padding: 28px 0px 26px 28px;
+    position: absolute;
+    top: 38px;
+    width: 100%;
+}
+
+main {
+    top: 139px;
+    width: 1024px;
+}
+
+article {
+    height: 529px;
+    position: absolute;
+    top: 293px;
+    width: 300px;
+}
+
+.article_1 {
+    left: 32px;
+    top: 293px;
+}
+
+.article_2 {
+    left: 365px;
+    top: 293px;
+}
+
+.article_3 {
+    left: 695px;
+}
+
+.heart_icon {
+    left: 21px;
+    position: absolute;
+    top: 15.88px;
+    z-index: 10;
+}
+
+.banner {
+    left: 0px;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+}
+
+.character_img {
+    border-radius: 60px;
+    height: 118px;
+    left: 90px;
+    position: relative;
+    top: 128px;
+    width: 120px;
+    z-index: 10;
+}
+
+.information {
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 336px;
+    left: 0px;
+    padding: 74px 16px 0 16px;
+    position: absolute;
+    top: 192px;
+    width: 100%;
+    z-index: 0;
+}
+
+.character_name {
+    font-size: 30px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: 16px;
+    margin: 0 0 37px;
+}
+
+.more_button {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    height: 48.52px;
+    left: 85px;
+    position: absolute;
+    top: 269px;
+    width: 128.78px;
+}
+
+footer {
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);    
+    box-sizing: border-box;
+    color: #FFF9F9;
+    height: 51px;
+    left: 0px;
+    padding: 16px;
+    position: absolute;
+    top: 972px;
+    width: 1024px;
+}
