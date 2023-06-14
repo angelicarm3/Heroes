@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.discounts {
+    background-color: #D1891C;
+    box-sizing: border-box;
+    font-size: 0.94rem;
+    padding: 10px 0px 10px 27px;
+}
+
+.title {
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 28px 0px 26px 28px;
+}
+
+.heroe_section {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 32px;
+}
+
+.heroe {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 18.75rem;
+}
+
+.banner {
+    border-radius: 16px 16px 0px 0px;
+    height: 12rem;
+}
+
+.heart_icon {
+    left: 1.31rem;
+    position: absolute;
+    top: 1rem;
+    z-index: 10;
+}
+
+.character_img {
+    border-radius: 60px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 7.38rem;
+    left: 5.62rem;
+    position: absolute;
+    top: 8rem;
+    width: 7.5rem;
+}
+
+.information {
+    align-items: center;
+    background-color: #F3F3F3;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    height: 27rem;
+    padding: 74px 16px 18px 16px;
+}
+
+.character_name {
+    font-size: 1.87rem;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.description {
+    font-size: 1rem;
+    height: 12rem;
+}
+
+.more_button {
+    background-color: #00669F;
+    border: none;
+    color: #F3F3F3;
+    height: 3rem;
+    width: 8rem;
+}
+
+.add_button {
+    background-color: #00669F;
+    border: none;
+    border-radius: 2rem;
+    color: #F3F3F3;
+    font-size: 2.5rem;
+    height: 4rem;
+    position: fixed;
+    right: 1rem;
+    top: 55rem;
+    width: 4rem;
+}
+
+footer {
+    align-items: center;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    color: #FFF9F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.text_footer{
+    text-align: center;
+    width: 88%;
+}
+
+.icon_github {
+    height: auto;
+    width: 12%;
+}
+
+@media (min-width: 768px) {
+    .heroe_section {
+        flex-wrap: wrap;
+        padding: 100px 32px 0 32px;
+    }
+
+    .heroe {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+    .heroe_section {
+        flex-direction: column;
+        padding: 50px 32px 0 32px;
+    }
+
+    .heroe {       
+        padding-bottom: 50px;
+    }
+
+    .add_button {
+        font-size: 1.5rem;
+        height: 2rem;
+        right: 0.3rem;
+        top: 37rem;
+        width: 2rem;
+    }
+
+    .text_footer{
+        font-size: 0.8rem;
+    }
+}
