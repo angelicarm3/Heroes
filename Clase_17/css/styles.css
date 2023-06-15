@@ -114,10 +114,6 @@ li {
     width: 8rem;
 }
 
-.more_button:hover {
-    background-color: #001D2D;
-}
-
 .add_button {
     background-color: #00669F;
     border: none;
@@ -132,10 +128,6 @@ li {
     right: 1rem;
     top: 55rem;
     width: 4rem;
-}
-
-.add_button:hover {
-    background-color: #001D2D;
 }
 
 footer {

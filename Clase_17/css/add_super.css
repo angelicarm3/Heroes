@@ -94,12 +94,6 @@ li {
     margin-bottom: 15px;
 }
 
-input:focus, textarea:focus {
-    background-color: #e0d9d9;
-    outline: none;
-    font-size: 1.5rem;
-}
-
 .styled_input, textarea, #species { 
     background-color: #FFFFFF;
     border: 1.5px solid rgba(0, 0, 0, 0.1);
@@ -174,11 +168,6 @@ hr {
     font-weight: 700;
     height: 4rem;
     width: 22rem;
-}
-
-.submit_button:hover {
-    background-color: #001D2D;
-    color: #FFFFFF;
 }
 
 footer {

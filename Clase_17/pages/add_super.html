@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/add_super.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Héroes</title>
+</head>
+
+<body>
+    <header>
+        <div class="discounts">Descuentos 20%</div>
+        <div class="title">Card Súper Héroes</div>
+        <nav class="nav_bar">
+            <ul class="nav_list">
+                <li>Contacto</li>
+                <li>Registrarme</li>
+                <li>Ingresar</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="register_section">
+            <form class="register_form" action="/registrarme" method="POST">
+                <legend class="form_title">Añadí tu super!</legend>
+                <legend class="form_subtitle">Agregá tu personaje favorito completando las opciones.</legend>
+                <div class="fields_section">
+                    <div class="left_side">
+                        <label class="subtitle_label" for="name">*Nombre</label>
+                        <input class="styled_input" type="text" name="name" id="name" placeholder="Nombre" required>
+                        <label class="subtitle_label" for="date">Fecha</label>
+                        <input class="form_date styled_input" type="date" name="date" id="date" placeholder="" required>
+                        <textarea name="description" id="description" placeholder="Descripción" required></textarea>
+                    </div>
+                    <div class="rigth_side">
+                        <label class="subtitle_label" for="species">*Especie</label>
+                        <select name="species" id="species">
+                            <option class="styled_input" value="Especie" selected>Especie</option>
+                            <option class="styled_input" value=""></option>
+                            <option class="styled_input" value=""></option>
+                            <option class="styled_input" value=""></option>
+                        </select>
+                        <label class="subtitle_label" for="upload_photo">Agregar Foto</label>
+                        <label class="file_upload" for="upload_photo">                            
+                            <input type="file" name="upload_photo" id="upload_photo" placeholder="" required>
+                            Seleccionar archivo
+                        </label>                                      
+                        <span class="aside_upload">No se eligió archivo</span>       
+
+                        <legend class="subtitle_label">Poderes</legend>
+                        <input class="checkbox" type="checkbox" id="fly" name="powers" value="Volar">
+                        <label class="side_label" for="fly">Volar</label><br>
+                        <input class="checkbox" type="checkbox" id="supersmart" name="powers" value="SuperInteligencia">
+                        <label class="side_label" for="supersmart">SuperInteligencia</label><br>
+                        <input class="checkbox" type="checkbox" id="laser_eyes" name="powers"
+                            value="Vista de rayo láser">
+                        <label class="side_label" for="laser_eyes">Vista de rayo láser</label><br>
+                        <input class="checkbox" type="checkbox" id="fat_wallet" name="powers" value="Billetera gorda">
+                        <label class="side_label" for="fat_wallet">Billetera gorda</label><br>
+
+                        <hr>
+                        <legend class="subtitle_label">Tipo de personaje</legend>
+                        <input class="radio" type="radio" id="hero" name="role" value="Héroe / Heroina">
+                        <label class="side_label" for="hero">Héroe / Heroina</label><br>
+                        <input class="radio" type="radio" id="villain" name="role" value="Villano / Villana">
+                        <label class="side_label" for="villain">Villano / Villana</label><br>
+                    </div>
+                </div>
+                <button class="submit_button" type="submit">Añadir</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="text_footer">Todos los derechos reservados a FRONT END 1</div>
+        <!-- <img class="icon_github" src="img/icon_github.png" alt="Logo Github"> -->
+    </footer>
+</body>
+
+</html>
