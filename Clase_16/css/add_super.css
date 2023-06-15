@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+}
+
+.discounts {
+    background-color: #1CD1B0;
+    box-sizing: border-box;
+    font-size: 0.94rem;
+    padding: 10px 0px 10px 27px;
+}
+
+.title {
+    background-color: #00669F;
+    color: #FFFFFF;
+    font-size: 2.5rem;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    padding: 28px 0px 26px 28px;
+}
+
+.nav_bar {
+    background-color: #001D2D;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+ul {
+    color: #FFFFFF;
+    display: flex;
+    font-size: 1rem;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding-right: 10px;
+}
+
+li {
+    margin: 10px;
+}
+
+.register_section {
+    justify-content: center; 
+    display: flex;
+    padding: 40px;    
+}
+
+.register_form {
+    align-items: center;
+    background: #00669F;
+    border-radius: 50px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    color: #FBFFFD;
+    display: flex;
+    flex-direction: column;
+    font-weight: 300;
+    height: 52rem;
+    width: 59.62rem;
+}
+
+.fields_section {
+    display: flex;
+}
+
+.fields_section div {
+    margin: 10px;
+}
+
+.form_title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 14px;
+}
+
+.form_subtitle {
+    font-size: 1.25rem;
+    margin: 14px;
+}
+
+.subtitle_label {
+    display: block;
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.styled_input, textarea, #species { 
+    background-color: #FFFFFF;
+    border: 1.5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    height: 3.93rem;
+    margin-bottom: 30px;    
+    padding: 10px;
+    width: 100%;
+}
+
+::placeholder, select {
+    color: rgba(0, 0, 0, 0.5);
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+}
+
+.form_date, .file_upload {
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.81rem;
+}
+
+textarea {
+    height: 19rem;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.file_upload {
+    background-color: #CECECE;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    height: 2rem;
+    margin: 15px 20px 41px 0;
+    padding: 8px;
+    width: 13.93rem;
+}
+
+.aside_upload {
+    color: #000000;
+    font-size: 0.62rem;
+}
+
+.checkbox, .radio {    
+    border: 1px solid #C4C4C4;
+    height: 20px;
+    margin-bottom: 13px;
+    padding: 0;
+    /* vertical-align: middle; */
+    width: 24px;    
+}
+
+.side_label {
+    margin-left: 20px;
+    /* vertical-align: middle; */
+}
+
+hr {
+    color: #CCCCCC;
+    margin-block-end: 1em;
+}
+
+.submit_button {
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 15px;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 700;
+    height: 4rem;
+    width: 22rem;
+}
+
+footer {
+    align-items: center;
+    background-color: #00669F;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-sizing: border-box;
+    color: #FFF9F9;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.text_footer{
+    text-align: center;
+    width: 88%;
+}
+
+.icon_github {
+    height: auto;
+    width: 12%;
+}
+
+@media (min-width: 768px) {
+    .heroe_section {
+        flex-wrap: wrap;
+        padding: 100px 32px 0 32px;
+    }
+
+    .heroe {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 2rem;
+    }
+    .heroe_section {
+        flex-direction: column;
+        padding: 50px 32px 0 32px;
+    }
+
+    .heroe {       
+        padding-bottom: 50px;
+    }
+
+    .add_button {
+        font-size: 1.5rem;
+        height: 2rem;
+        right: 0.3rem;
+        top: 37rem;
+        width: 2rem;
+    }
+
+    .text_footer{
+        font-size: 0.8rem;
+    }
+}
